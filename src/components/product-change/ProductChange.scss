@@ -1,0 +1,31 @@
+.exchange {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.exchange h4 {
+	font-size: 18px;
+}
+
+.exchange span {
+	margin-top: 2px;
+	margin-bottom: 8px;
+	font-size: 16px;
+}
+
+.exchange span img {
+	width: 14px;
+}
+
+.exchange .messageImg {
+	margin-bottom: 50px;
+	width: 80%;
+}
+
+.exchange .message {
+	font-size: 24px;
+	text-align: center;
+}

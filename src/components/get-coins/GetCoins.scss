@@ -1,0 +1,85 @@
+.exchange {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.exchange h4 {
+	font-size: 18px;
+}
+
+.exchange span {
+	margin-top: 2px;
+	margin-bottom: 8px;
+	font-size: 16px;
+}
+
+.exchange span img {
+	width: 14px;
+}
+
+.exchange .msgUser {
+	margin-bottom: 50px;
+	width: 80%;
+}
+
+.exchange .msgUser {
+	font-size: 24px;
+	text-align: center;
+}
+
+.exchange button {
+	margin-top: 20px;
+	margin-left: 0;
+	padding: 6px;
+	font-size: 14px;
+	box-sizing: border-box;
+	border-radius: 21px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	color: #ffffff;
+}
+
+.coin_big {
+	width: 120px;
+	margin-top: 30px;
+}
+
+.coins-range {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectPrice {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.left {
+    width: 50px;
+    height: 50px;
+    background: #0ad4fa;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.right {
+    width: 50px;
+    height: 50px;
+    background: #0ad4fa;
+    color: #fff;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.disabled {
+    background: #c4c4c4;
+}
+

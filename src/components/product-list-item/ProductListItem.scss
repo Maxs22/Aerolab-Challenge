@@ -1,0 +1,174 @@
+
+.list-grid {
+	width: 177px;
+	height: 240px;
+	margin: 15px;
+	text-align: left;
+	background: #ffffff;
+	box-shadow: 0px 7px 10px rgba(black, 0.5);
+    border-radius: 15px;
+}
+
+.list-grid .overlay {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 177px;
+	height: 240px;
+	box-sizing: border-box;
+    border-radius: 15px;
+	z-index: 6666;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: linear-gradient(-180deg, #0ad4fa 0%, #25bbf1 100%);
+	opacity: 0.8;
+	box-shadow: 3px 2px 15px 6px rgba(140, 140, 140, 0.5);
+	visibility: hidden;
+}
+
+.list-grid .overlay img {
+	width: 40px;
+	height: 40px;
+	vertical-align: text-bottom;
+}
+
+.list-grid .overlay span {
+	font-size: 50px;
+	color: white;
+}
+.list-grid .overlay button {
+	width: 160px;
+	height: 42px;
+	margin-top: 5px;
+	padding: 5px;
+	font-size: 16px;
+	box-sizing: border-box;
+	border-radius: 21px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+
+.list-grid:hover .overlay {
+	visibility: visible;
+}
+
+.list-grid .back {
+	position: relative;
+	top: -240px;
+	left: 0px;
+
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.list-grid .bag-buy {
+	position: relative;
+	z-index: 5555;
+	box-sizing: border-box;
+	background-color: #0ad4fa;
+	opacity: 0.8;
+	box-shadow: 1px 1px 6px 2px #c6dfe4;
+}
+
+.list-grid .bag-buy.round {
+    
+    top: -463px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+	padding: 0px;
+	border-radius: 20px;
+}
+
+.list-grid .bag-buy.container {
+	top: -470px;
+	left: 116px;
+	height: 30px;
+	width: 114px;
+	padding: 8px 10px;
+	border-radius: 20px;
+	background: #616161;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.list-grid .bag-buy.container span {
+	display: inline;
+	font-size: 12px;
+}
+
+.list-grid .bag-buy.container img {
+	display: inline;
+	margin-top: -1px;
+	height: 18px;
+	width: 18px;
+	margin-left: 2px;
+}
+
+.list-grid img {
+	width: 100%;
+}
+
+.list-grid hr {
+	border-top: 1px solid #d9d9d9;
+}
+
+.list-grid p {
+	margin-top: 48px;
+	font-size: 12px;
+	color: #a3a3a3;
+	letter-spacing: -0.04px;
+}
+
+.list-grid h4 {
+	font-size: 14px;
+	color: #616161;
+	letter-spacing: -0.04px;
+}
+
+@media only screen and (min-width: 1500px) {
+    .list-grid {
+        width: 238px;
+        height: 240px;
+    }
+
+    .list-grid p {
+        margin-top: 10px;
+        font-size: 16px;
+        color: #a3a3a3;
+        letter-spacing: -0.04px;
+    }
+    
+    .list-grid h4 {
+        font-size: 18px;
+    }
+    
+    .list-grid .overlay {
+        width: 240px;
+        height: 240px;
+    }
+
+    .list-grid p {
+        margin-top: 23px;
+    }
+
+    .list-grid .bag-buy.round {
+        top: -490px;
+        left: 186px;
+        width: 40px;
+        height: 40px;
+		
+    }
+
+    .list-grid .back {
+        
+        top: -260px;
+    }
+    .list-grid .overlay button {
+        width: 180px;
+    }
+}
